@@ -59,7 +59,7 @@ const HeroSection = () => {
               mb: 3,
             }}
           >
-            It&apos;s Time to{" "}
+            It's Time to{" "}
             <Box
               component="span"
               sx={{ fontStyle: "italic", color: "#2D4A2B" }}
