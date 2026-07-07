@@ -67,7 +67,7 @@ const SacredGarden = () => {
         {/* Eyebrow */}
         <Typography
           sx={{
-            fontFamily: "JetBrains Mono, monospace",
+            fontFamily: "JetBrains Mono",
             fontSize: "11px",
             lineHeight: "16px",
             letterSpacing: "0.28em",
@@ -84,7 +84,7 @@ const SacredGarden = () => {
         <Typography
           component="h2"
           sx={{
-            fontFamily: "Fraunces, serif",
+            fontFamily: "Fraunces",
             fontWeight: 300,
             textAlign: "center",
             color: "#241F1A",
@@ -128,7 +128,7 @@ const SacredGarden = () => {
           growth, and lasting positive impact.
         </Typography>
 
-        {/* BENEFITS TIMELINE - single layout */}
+        
         <Box
           sx={{
             position: "relative",
@@ -136,7 +136,7 @@ const SacredGarden = () => {
             mb: 10,
           }}
         >
-          {/* Dotted wave - visible on larger screens */}
+          {/* Dotted wave */}
           <Box
             sx={{
               display: { xs: "none", lg: "block" },
@@ -211,7 +211,7 @@ const SacredGarden = () => {
                     >
                       <Typography
                         sx={{
-                          fontFamily: "Fraunces, serif",
+                          fontFamily: "Fraunces",
                           fontSize: { xs: "24px", md: "24px" },
                           lineHeight: 1.25,
                           fontWeight: 400,
@@ -293,7 +293,7 @@ const SacredGarden = () => {
                     >
                       <Typography
                         sx={{
-                          fontFamily: "Fraunces, serif",
+                          fontFamily: "Fraunces",
                           fontSize: { xs: "24px", md: "24px" },
                           lineHeight: 1.25,
                           fontWeight: 400,
@@ -355,7 +355,7 @@ const SacredGarden = () => {
 
           <Typography
             sx={{
-              fontFamily: "Fraunces, serif",
+              fontFamily: "Fraunces",
               fontSize: { xs: "24px", md: "40px" },
               lineHeight: 1.35,
               fontWeight: 300,
@@ -367,7 +367,7 @@ const SacredGarden = () => {
 
           <Typography
             sx={{
-              fontFamily: "Fraunces, serif",
+              fontFamily: "Fraunces",
               fontStyle: "italic",
               fontSize: { xs: "20px", md: "30px" },
               lineHeight: 1.35,
@@ -381,7 +381,7 @@ const SacredGarden = () => {
 
           <Typography
             sx={{
-              fontFamily: "JetBrains Mono, monospace",
+              fontFamily: "JetBrains Mono",
               fontSize: "11px",
               lineHeight: "16px",
               letterSpacing: "0.28em",
