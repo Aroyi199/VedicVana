@@ -42,7 +42,7 @@ const Footer = () => {
           pb: 5,
         }}
       >
-        {/* Top area: logo/tagline + link columns */}
+        {/* Top area */}
         <Box
           sx={{
             display: "flex",
@@ -69,7 +69,7 @@ const Footer = () => {
             />
             <Typography
               sx={{
-                fontFamily: "'Fraunces', serif",
+                fontFamily: "'Fraunces",
                 fontWeight: 300,
                 letterSpacing: "-0.22px",
                 fontSize: "15px",
@@ -104,11 +104,11 @@ const Footer = () => {
             </Button>
           </Box>
 
-          {/* Explore column */}
+          
           <Box>
             <Typography
               sx={{
-                fontFamily: "'JetBrains Mono', monospace",
+                fontFamily: "'JetBrains Mono",
                 fontWeight: 500,
                 fontSize: "11px",
                 letterSpacing: "1.98px",
@@ -145,7 +145,7 @@ const Footer = () => {
           <Box>
             <Typography
               sx={{
-                fontFamily: "'JetBrains Mono', monospace",
+                fontFamily: "'JetBrains Mono",
                 fontWeight: 500,
                 fontSize: "11px",
                 lineHeight: "17px",
